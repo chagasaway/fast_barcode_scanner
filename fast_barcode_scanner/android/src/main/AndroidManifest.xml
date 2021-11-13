@@ -2,5 +2,5 @@
   package="com.jhoogstraat.fast_barcode_scanner">
     <uses-feature android:name="android.hardware.camera.any" />
     <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-sdk tools:overrideLibrary="androidx.camera, com.google.mlkit" />
+    <uses-sdk tools:overrideLibrary="androidx.camera.camera2, androidx.camera.lifecycle, androidx.camera.core" />
 </manifest>
